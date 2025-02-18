@@ -5,6 +5,8 @@ import truck from './truck.png'
 import train from './train.png'
 import plane from './plane.png'
 import ship from './ship.png'
+import gmail from './gmail.png'
+import call from './call.png'
 import drop from './drop.png'
 import agriculture from './agriculture.jpg'
 export const asset =  {
@@ -16,5 +18,7 @@ export const asset =  {
     plane,
     ship,
     drop,
-    agriculture
+    agriculture,
+    gmail,
+    call
 }

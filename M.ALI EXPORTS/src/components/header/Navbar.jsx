@@ -4,9 +4,9 @@ import {asset}  from '../../assets/assets'
 const Navbar = () => {
   return (
     <nav className="flex bg-neutral-800 px-12 py-8">
-      <div className="logo w-[300px] flex items-center gap-1">
-        <img src={asset.logo} alt="" className="h-10 w-fit " />
-        <h1 className="text-white font-bold text-nowrap">
+      <div className="logo w-[300px] flex items-center gap-1 ">
+        <img src={asset.logo} alt="" className="h-10 w-fit cursor-pointer" />
+        <h1 className="text-white font-bold text-nowrap cursor-pointer">
           M. <span className='text-green-400'>ALI</span>
         </h1>
       </div>
