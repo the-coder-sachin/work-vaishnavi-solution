@@ -6,10 +6,10 @@ const PartnerWithUs = () => {
       height: "calc(100vh - 104px)",
     };
   return (
-    <section style={height} className="bg-neutral-200 w-full p-10">
+    <section className="bg-neutral-200 w-full p-10 lg:h-screen">
       <h2 className="text-3xl font-bold uppercase">Partner With Us</h2>
       <div className="flex">
-        <p className=" mt-7 text-xl leading-loose">
+        <p className=" mt-7 sm:text-xl md:leading-loose">
           For the reason that international trade demands precision and
           reliability, we are dedicated to providing well-structured export
           solutions. Whether you are a wholesaler, distributor, or importer, we

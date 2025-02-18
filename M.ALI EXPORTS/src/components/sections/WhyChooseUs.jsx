@@ -5,10 +5,10 @@ const WhyChooseUs = () => {
       height: "calc(100vh - 104px)",
     };
   return (
-    <section style={height} className="bg-slate-300 w-full p-10">
+    <section  className="bg-slate-300 w-full p-10 lg:h-screen">
       <h2 className="text-3xl font-bold uppercase">Why Choose Us?</h2>
       <div className="flex">
-        <p className=" mt-7 text-xl leading-loose">
+        <p className=" mt-7 sm:text-xl md:leading-loose">
           ✅ Premium Quality – We source only the best, ensuring high standards
           of purity and freshness.✅ Global Reach – Serving clients worldwide
           with efficient and timely deliveries.✅ Competitive Pricing – Get the

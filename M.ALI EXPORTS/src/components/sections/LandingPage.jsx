@@ -9,15 +9,15 @@ const LandingPage = () => {
 
   return (
     <section>
-      <div style={height} className="bg relative min-h-screen w-full overflow-hidden">
+      <div className="bg relative lg:min-h-screen w-full py-10">
         <div className="overplay md:h-screen h-[600px] sm:h-[700px] w-full bg-amber-400/60 absolute top-0 left-0 -z-10"></div>
         <img
           src={asset.bg}
           alt="bg"
           className="md:h-screen h-[600px] w-full object-cover -z-20 absolute"
         />
-        <div className="content w-full h-full flex flex-col justify-center items-center pt-[-200px]">
-          <h1 className="text-4xl font-bold text-neutral-700 text-center mt-10">
+        <div className="content w-full h-full flex flex-col justify-center items-center ">
+          <h1 className="text-4xl font-bold text-neutral-700 text-center sm:mt-10">
             M.ALI EXPORTS PRIVATE LIMITED
           </h1>
           <h2 className="text-white mt-3">
